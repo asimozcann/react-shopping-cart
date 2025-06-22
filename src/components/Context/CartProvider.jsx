@@ -72,6 +72,7 @@ const CartProvider = ({ children }) => {
     },
     clearItem: () => {
       dispatchCartAction({ type: "CLEAR" });
+      localStorage.removeItem("cartState"); 
     },
   };
   useEffect(() => {
