@@ -2,7 +2,12 @@ import { Fragment } from "react";
 import ReactDOM from "react-dom";
 
 const Backdrop = (props) => {
-  return <div className="fixed top-0 left-0 w-full h-screen z-10 bg-[#0000004d]" onClick={props.onClose}></div>;
+  return (
+    <div
+      className="fixed top-0 left-0 w-full h-screen z-10 bg-[#0000004d]"
+      onClick={props.onClose}
+    ></div>
+  );
 };
 
 const OffcanvasOverlay = (props) => {
