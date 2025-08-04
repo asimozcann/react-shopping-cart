@@ -1,12 +1,26 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# React Shopping Cart
 
-Currently, two official plugins are available:
+A simple and functional shopping cart application built with React. This app demonstrates product listing, adding/removing items from the cart, and cart summary features with a clean UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Display list of products  
+- Add products to the shopping cart  
+- Remove products from the cart  
+- View total price and quantity of items in the cart  
+- Responsive and user-friendly interface  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+- React 18  
+- JavaScript (ES6+)  
+- CSS / Tailwind CSS (if applicable)  
+- React Context API or Redux (if used, belirt)  
+- Deployment platform (e.g., Vercel, Netlify)  
+
+## Installation and Setup
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/asimozcann/react-shopping-cart.git
